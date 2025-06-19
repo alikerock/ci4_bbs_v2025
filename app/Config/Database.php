@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => ('database.default.username'),
-        'password'     => ('database.default.password'),
-        'database'     => ('database.default.database'),
+        'username' => '',
+        'password' => '',
+        'database' => '',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -50,6 +50,7 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+ 
 
     //    /**
     //     * Sample database connection for SQLite3.
@@ -199,5 +200,13 @@ class Database extends Config
         if (ENVIRONMENT === 'testing') {
             $this->defaultGroup = 'tests';
         }
+        // ✅ 여기에 env 설정 추가
+        $this->default['username'] = env('database.default.username', 'root');
+        $this->default['password'] = env('database.default.password', '');
+        $this->default['database'] = env('database.default.database', '');
+        $this->default['hostname'] = env('database.default.hostname', 'localhost');
+        $this->default['DBDriver'] = env('database.default.DBDriver', 'MySQLi');
+        $this->default['DBPrefix'] = env('database.default.DBPrefix', '');
+        $this->default['port']     = (int) env('database.default.port', 3306);        
     }
 }
