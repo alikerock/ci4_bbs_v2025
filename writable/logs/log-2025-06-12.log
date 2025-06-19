@@ -1,0 +1,137 @@
+CRITICAL - 2025-06-12 02:09:43 --> Error: Call to undefined function App\Controllers\render()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 02:11:19 --> Error: Call to undefined function App\Controllers\render()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 02:12:58 --> Error: Call to undefined function App\Controllers\render()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 02:17:38 --> ErrorException: Undefined variable $options
+[Method: GET, Route: board]
+in APPPATH\Helpers\render_helper.php on line 8.
+ 1 APPPATH\Helpers\render_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Helpers\\render_helper.php', 8)
+ 2 APPPATH\Controllers\Board.php(10): render('board_list')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 03:36:22 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 3.
+ 1 APPPATH\Views\board_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(8): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(18): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 03:47:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 23.
+ 1 APPPATH\Controllers\Board.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Controllers\\Board.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 03:47:30 --> ErrorException: Undefined variable $list
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 3.
+ 1 APPPATH\Views\board_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(8): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(23): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 03:47:42 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 3.
+ 1 APPPATH\Views\board_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(8): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(23): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 03:51:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 3.
+ 1 APPPATH\Views\board_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_bbs\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(8): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(21): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 06:38:13 --> TypeError: App\Controllers\Board::save(): Return value must be of type string, CodeIgniter\HTTP\Response returned
+[Method: POST, Route: writeSave]
+in APPPATH\Controllers\Board.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
+CRITICAL - 2025-06-12 06:38:57 --> TypeError: App\Controllers\Board::save(): Return value must be of type string, CodeIgniter\HTTP\Response returned
+[Method: POST, Route: writeSave]
+in APPPATH\Controllers\Board.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bbs\\public\\index.php')
