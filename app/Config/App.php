@@ -6,6 +6,7 @@ use CodeIgniter\Config\BaseConfig;
 
 class App extends BaseConfig
 {
+
     /**
      * --------------------------------------------------------------------------
      * Base Site URL
@@ -16,7 +17,15 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://greenkdj.dothome.co.kr/ci4/';
+    public string $baseURL = '';
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        // .env 파일에서 값 가져오기
+        $this->baseURL = env('app.baseURL', 'http://localhost:8080/');
+    }
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
